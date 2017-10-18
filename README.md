@@ -33,7 +33,7 @@ Even simple text in a JSX tag.
 
 ##### bookDetail.re
 Define the kind of actions this component has. (Only fix the first TODO in this file!)
-In Reason, we define them with Variants https://reasonml.github.io/guide/language/variant. 
+In Reason, we define them with [Variants](https://reasonml.github.io/guide/language/variant).
 e.g.:   
 ```
 type actions = 
@@ -49,8 +49,8 @@ Note: You will have to use the `Database.book` type here.
 Display all books by mapping on each book and calling the `book` function, which displays a single book.
 The `book` function misses some text!
 To display a list of books,   
-you need to transform your list to an array [Array docs](https://reasonml.github.io/api/Array.html) 
-and then translate that array in a ReasonReact component [ReasonReact render docs](https://reasonml.github.io/reason-react/docs/en/render.html)
+you need to transform your list to an array ([docs](https://reasonml.github.io/api/Array.html)) 
+and then translate that array in a ReasonReact component ([render docs](https://reasonml.github.io/reason-react/docs/en/render.html))
 
 You should also fix the `href` in the `book` function.
 If you click on a book in the browser, you won't be redirected to the book detail because you're still missing the implementation in app.re. Let's do that in the next step.
@@ -66,7 +66,7 @@ You should now be able to go to the book details.
 
 Let's now add the `ManageBooksRoute`. Again, mock the `add` and `delete` functions for now.
 
-Let's now fix the reducer [reducer docs](https://reasonml.github.io/reason-react/docs/en/state-actions-reducer.html)
+Let's now fix the [reducer](https://reasonml.github.io/reason-react/docs/en/state-actions-reducer.html)
 First implement the delete, then update and add.
 
 ##### navbar.re
